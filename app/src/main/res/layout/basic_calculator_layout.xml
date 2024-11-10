@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Basic Calculator"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonTambah"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:text="Tambah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/buttonKurang"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:text="Kurang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTambah" />
+
+    <Button
+        android:id="@+id/buttonKali"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:text="Kali"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKurang" />
+
+    <Button
+        android:id="@+id/buttonBagi"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:text="Bagi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonKali" />
+
+    <Button
+        android:id="@+id/buttonModulo"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="68dp"
+        android:text="Modulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBagi" />
+</androidx.constraintlayout.widget.ConstraintLayout>
